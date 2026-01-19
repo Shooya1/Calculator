@@ -11,3 +11,10 @@ def divide(a, b):
     if b == 0:
         return "Error: Division by zero"
     return a / b
+
+operations = {
+    "1": add,
+    "2": subtract,
+    "3": multiply,
+    "4": divide
+}
